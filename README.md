@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Welcome to A R T F U L  F A R T
 
-You can use the [editor on GitHub](https://github.com/ntien/artfulfart/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Sharing art in community
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Quaranzine art collections coming soon.
 
 ```markdown
-Syntax highlighted code block
+are you interested in contributing some art to the Quaranzine series?
 
-# Header 1
-## Header 2
-### Header 3
+# It can be Corona virus related
+## or not!
+### It can be whatever type of art you want!
 
-- Bulleted
-- List
+- audio
+- video
+- visual; drawing, painting, collage
+- food
 
-1. Numbered
-2. List
+What is the purpose of this site?
+1. To encourage people to make art
+2. To have a communal space to share that art
 
-**Bold** and _Italic_ and `Code` text
+**Art** is _Therapy_ and `we` could all use some healing.
 
 [Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ntien/artfulfart/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
