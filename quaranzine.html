@@ -4,10 +4,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <style>
+  .grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: stretch;
+  justify-items: center;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
 </style>
 </head>
 <body>
-<img src="flappers_corona_virus.png"></img>
+
 <div> hello </div>
+<main class="grid">
+  <img src="flappers_corona_virus.png"></img>
+  <img src="flappers_corona_virus.png"></img>
+  <img src="flappers_corona_virus.png"></img>
+</main>
 </body>
 </html>
+
+<!doctype html>
