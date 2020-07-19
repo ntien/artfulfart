@@ -47,29 +47,25 @@ a:link {
 	
 /*-- Sign Styles --*/
 
-.sign {
+#nowshowingtwo {
   min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  &__word {
     font-size: 5.6rem;
     font-family: "Vibur", cursive;
     text-align: center;
     line-height: 1;
     color: #c6e2ff;
-    animation: nowshowing2 .08s ease-in-out infinite alternate;
-  }
-
+    animation: nowshowingtwo .08s ease-in-out infinite alternate;
 }
 
 /*-- Animation Keyframes --*/
 
 // animation
 
-@keyframes nowshowing2 {
+@keyframes nowshowingtwo {
   from {
     text-shadow:
     0 0 6px rgba(202,228,225,0.92),
@@ -129,9 +125,7 @@ a:link {
 	<title>ArtfulFart</title>
 <body>
 <div id="nowshowing">Now Showing</div>
-<div class="sign">
-	<span class="sign__word">Now Showing</span>
-</div>
+<div id="nowshowingtwo">Now Showing</div>
 <div id="quaranzine" data-text="U"><a href="quaranzine.html"><span class="flicker-slow">Q</span>UARAN<span class="flicker-fast">Z</span>INE</a></div>
 	<div id="menu"></div>
 </body>
