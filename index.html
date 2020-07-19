@@ -21,13 +21,13 @@ a:link {
 }
 	
 #nowshowing {
-  font-family: neon;
+  font-family: "Vibur", cursive;
   color: #426DFB;
   font-size: 5vw;
   line-height: 9vw;
   <!--text-shadow: 0 0 3vw #2356FF;-->
 }
-	
+
 #nowshowing {
   animation: nowshowing 2s linear infinite;
   -moz-animation: nowshowing 2s linear infinite;
@@ -44,6 +44,54 @@ a:link {
     color: #c6e2ff;
   }
 }
+	
+/*-- Sign Styles --*/
+
+.sign {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__word {
+    font-size: 5.6rem;
+    font-family: "Vibur", cursive;
+    text-align: center;
+    line-height: 1;
+    color: #c6e2ff;
+    animation: nowshowing2 .08s ease-in-out infinite alternate;
+  }
+
+}
+
+/*-- Animation Keyframes --*/
+
+// animation
+
+@keyframes nowshowing2 {
+  from {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(30,132,242,0.52),
+    0 0 21px rgba(30,132,242,0.92),
+    0 0 34px rgba(30,132,242,0.78),
+    0 0 54px rgba(30,132,242,0.92);
+  }
+  to {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.98),
+    0 0 30px rgba(202,228,225,0.42),
+    0 0 12px rgba(30,132,242,0.58),
+    0 0 22px rgba(30,132,242,0.84),
+    0 0 38px rgba(30,132,242,0.88),
+    0 0 60px rgba(30,132,242,1);
+  }
+}
+	
+	
+	
 	
 #quaranzine {
   font-family: 'Monoton', cursive;
@@ -81,6 +129,9 @@ a:link {
 	<title>ArtfulFart</title>
 <body>
 <div id="nowshowing">Now Showing</div>
+<div class="sign">
+	<span class="sign__word">Now Showing</span>
+</div>
 <div id="quaranzine" data-text="U"><a href="quaranzine.html"><span class="flicker-slow">Q</span>UARAN<span class="flicker-fast">Z</span>INE</a></div>
 	<div id="menu"></div>
 </body>
