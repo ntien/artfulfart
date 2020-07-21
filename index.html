@@ -31,41 +31,21 @@ a:link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-    font-size: 5.6rem;
-    font-family: "Fira Code", cursive;
-    text-align: center;
-    line-height: 1;
-    color: #c6e2ff;
-    animation: nowshowing-neon .08s ease-in-out infinite alternate;
+  font-size: 4.6rem;
+  font-family: "Fira Code", cursive;
+  text-align: center;
+  line-height: 1;
+  color: #c6e2ff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
 }
-
-/*-- Animation Keyframes --*/
-
-// animation
-
-@keyframes nowshowing-neon {
-  from {
-    text-shadow:
-    0 0 6px rgba(202,228,225,0.92),
-    0 0 30px rgba(202,228,225,0.34),
-    0 0 12px rgba(30,132,242,0.52),
-    0 0 21px rgba(30,132,242,0.92),
-    0 0 34px rgba(30,132,242,0.78),
-    0 0 54px rgba(30,132,242,0.92);
-  }
-  to {
-    text-shadow:
-    0 0 6px rgba(202,228,225,0.98),
-    0 0 30px rgba(202,228,225,0.42),
-    0 0 12px rgba(30,132,242,0.58),
-    0 0 22px rgba(30,132,242,0.84),
-    0 0 38px rgba(30,132,242,0.88),
-    0 0 60px rgba(30,132,242,1);
-  }
-}
-	
-	
-	
 	
 #quaranzine {
   font-family: 'Monoton', cursive;
@@ -90,7 +70,7 @@ a:link {
 
 @keyframes flicker {
 	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {  
-		//text-shadow: none;
+    text-shadow: none;
     opacity: .99;
 		
 	}
