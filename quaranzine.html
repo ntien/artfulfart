@@ -38,6 +38,13 @@
     padding: 50px;
     color: grey;
   }
+  
+.entry:nth-child(odd) .description {
+    float:left;
+  }
+.entry:nth-child(odd) .description {
+    float:right;
+}
 
 </style>
 </head>
@@ -70,7 +77,7 @@
 </div>
   
 <div id="content-container">
-  <div class="entry"> Entry 1 
+  <div class="entry" class="odd">
     <img src="kami-guy.jpeg" height="500">
   </div>
   
@@ -80,16 +87,16 @@
     </video>
   </div>
   
-  <div class="entry"> Entry 2 
+  <div class="entry" class="odd">
     <img src="Asia-Cunningham-Reflection-On-Quarantine.jpg" height="500">
   </div>
    
   
-  <div class="entry"> Entry 3 
+  <div class="entry" >
      <img src="keith.jpg" height="500">
   </div>
   
-  <div class="entry"> Entry 4 
+  <div class="entry" class="odd">
      <img src="katie-oat-bread.jpg" height="500">
     <div id="oat-poem"> 
       An ode to oats
@@ -109,7 +116,7 @@ soaked, salted, sweetened, cooked, baked, roasted, toasted, and topped
     </audio>
   </div>
   
-  <div class="entry"> 
+  <div class="entry" class="odd"> 
     <img src="mo-poem.png" height="500">
   </div>
   
